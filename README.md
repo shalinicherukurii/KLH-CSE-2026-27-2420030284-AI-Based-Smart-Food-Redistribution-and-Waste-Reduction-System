@@ -1,127 +1,125 @@
-# Software-Defined Factory Controller Using Distributed RT Linux
+AI-Based Smart Food Redistribution and Waste Reduction SystemPr
 
-## Project Title
+oject TitleAI-Ba
 
-Software-Defined Factory Controller Using Distributed RT Linux
+sed Smart Food Redistribution and Waste Reduction SystemTeam Memb
 
-## Team Members
+ersS. No. Name 
 
-| S. No. | Name                           | Roll Number |
-| ------ | ------------------------------ | ----------- |
-| 1      | Tejasree                       | 2420030441  |
-| 2      | Kongara Deepthi                | 2420030484  |
-| 3      | Thirumala Reddy Sagar Mounitha | 2420030330  |
-| 4      | Shalini . Ch                   | 2420030284  |
+Roll Number1 Tejasree 24200304412 Kongara Deepthi 2420030
+4843 Thirumala Reddy Sagar Mounitha 24200303304 Shalini .
+ Ch 2420030284SupervisorSupervisor Name: Dr Archana Kalid
+indiAbstractThe AI-Based Smart Food Redistribution and Wa
+ste Reduction System is designed to reduce food wastage b
+y using artificial intelligence and data-driven decision-
 
-## Supervisor
+making to ide
 
-Supervisor Name: Dr Archana Kalidindi
+ntify surplus food and facilitate its red
 
-## Abstract
+istribution
 
-The project focuses on developing a software-defined factory controller for an automated conveyor-based sorting process using Distributed Real-Time Linux (RT Linux). The system divides the factory control functions into separate software nodes for conveyor control, object detection, and sorting operations.
+ to people or organizations in need.The system analyzes information such as food availability, quantity, expiry time, location, and demand to determine suitable redistribution opportunities. AI-based prediction and matching techniques can be used to prioritize foo
 
-Each node performs a specific control task and communicates with other nodes to coordinate the complete process. RT Linux is used to provide predictable and time-sensitive execution of control operations. The proposed system is designed as a software-based simulation, eliminating the need for physical hardware while demonstrating how distributed real-time control can be implemented for industrial automation.
+d items based on urgency and connect available surplus food with nearby recipients or organizations.The proposed system aims to provide an efficient, technology-driven solution for reducing avoidable food waste while improving food redistribution and resource utilization.ObjectivesDevelop an AI-based system to identify and man
 
-## Objectives
+age surplus food.Predict food demand and potential food wastage using available data.Prioritize food items based on quantity, expiry time, and urgency.Match surplus food wi
 
-* Develop a software-defined controller for an automated factory sorting process.
-* Implement distributed control using separate RT Linux nodes.
-* Simulate conveyor, object detection, and sorting operations.
-* Enable communication between distributed control nodes.
-* Process sensor inputs and generate machine-control commands in real time.
-* Demonstrate predictable and coordinated operation of an industrial automation process.
+th suitable r
 
-## Technologies Used
+ecipients or nearby organizations.Reduce avoidable food waste thr
+ough intelligent redistribution.Provide a centralized platform for mon
+itoring food availability and redistribution activities.Improve the 
+efficiency and transparency of the food redistribution process.Technol
+ogies UsedPythonArtificial Intelligence / Machine LearningData An
+alysis and VisualizationFlask / FastAPI (as applicable)HTML, CSS, JavaScript (as applicable)Data
+baseGit and GitHubVS CodeRepository Structure├── .gitignore├── README.md│├── 
 
-* Linux / RT Linux
-* Python / C / C++ *(as applicable)*
-* Inter-process or network communication
-* Git and GitHub
-* VS Code
-* Software-based factory simulation
+src/│   └── Source c
 
-## Repository Structure
+ode│├── 
+docs/│   └── Project documentation│├── data/
+│   └── Dataset or documented dat
+a source│├── results/│   └── Model 
+results, graphs, and outputs│└── reports/
+    └── Re
+view reports and
+ final pr
 
-├── .gitignore
-├── README.md
-│
-├── src/
-│   └── Source code
-│
-├── docs/
-│   └── Project documentation
-│
-├── data/
-│   └── Dataset or documented data source
-│
-├── results/
-│   └── Execution results and outputs
-│
-└── reports/
-    └── Review reports and project reports
+oject reportSetup Instr
 
-## Setup Instructions
+uctions
+1. Clone the R
+epositorygit 
+c
+lone <RE
+POSITORY_URL>cd <RE
+P
+OSITORY_N
+AME>2. Install Required Depen
+d
+enciesIns
+tall the required Python libraries and ot
+h
+er dependenc
+ies used by the project.pip install -r req
+u
+irements.txt
+3. Run the ProjectNavigate to the source direct
+ory
 
-### 1. Clone the Repository
+:cd srcRun the main a
 
-git clone <REPOSITORY_URL>
-cd <REPOSITORY_NAME>
+pplication according to the
 
-### 2. Install Required Dependencies
+ projec
+t implementation.python ap
+p.pyThe exact execut
+ion
 
-Install the required software and libraries according to the project implementation.
+ command will be updated as the proj
 
-### 3. Run the Project
+ect implementation is finalized.System WorkflowThe proposed system follows these 
 
-Navigate to the src directory and execute the appropriate controller programs.
+major s
+teps:Food Data Collection – Col
+lec
 
-cd src
+t information about su
 
-Then run the required modules according to the project configuration.
+rplus food, quantity, expiry time
 
-## Execution
+, locat
+ion, a
+nd 
 
-The system consists of distributed software components representing:
+availability.Data Processing – Clean and preprocess the collected
 
-1. Conveyor Node – controls the movement of objects.
-2. Detection Node – detects and classifies incoming objects.
-3. Sorting Node – determines the appropriate sorting action.
-4. Communication Layer – enables coordination between the distributed nodes.
+ data f
+or analysis.A
+I-B
 
-The nodes communicate with each other to perform the complete automated sorting process.
+ased Prediction – Analyze food availability and demand to identify potential wastage and 
 
-## Current Phase Status
+redistribution req
 
-Current Phase: Review 1
+uirements.Food Prioritization – Prioritize foo
 
-Status: Project definition, problem statement, objectives, literature survey, research gap, innovation, feasibility analysis, and initial project planning completed.
+d based on factors such as expiry time, quantity, and urgency.Smart Matching – Match available surplus food with suitabl
+e recipients or organizations.Redistribution – Facilitate the redistribution o
+f suitable food to reduce unnecessary wastage.Monitoring and Results – Track redistribution activities and evaluate the reductio
+n in food waste.Current Phase StatusCurrent Phase: Review 1Status: Project title, problem statement, obje
+ctives, literature survey, research gap identification, innovation, feasibility analysis, and i
+nitial project planning completed.Upcoming WorkCollect and prepare the required dataset.Perform data 
+preprocessing and exploratory data analysis.Develop the AI/ML prediction model.Implement the food priorit
 
-### Upcoming Work
+ization and matching me
 
-* Implement the distributed RT Linux nodes.
-* Establish communication between nodes.
-* Develop the software-based conveyor and sorting simulation.
-* Test real-time communication and control.
-* Evaluate system performance.
-* Prepare subsequent review and final deliverables.
+chanism.Develop the applica
 
-## Project Deliverables
+tion interface.Integrate the AI model with the application.Test and evaluate the system.Prepare subsequent review and final project deliverables.Project DeliverablesProject docume
 
-* Project documentation
-* Source code
-* Simulation results
-* Review reports
-* Final project report
+ntationSource cod
 
-## GitHub Contribution Policy
-
-All team members contribute using their individual GitHub accounts. Progressive commits are maintained throughout the project, with meaningful commits made regularly.
-
-Phase deliverables will be tagged appropriately, such as:
-
-review-1
-review-2
-final
-
-## Important
+eDataset / documented data sourceAI/ML mode
+lModel
