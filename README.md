@@ -1,125 +1,162 @@
-AI-Based Smart Food Redistribution and Waste Reduction SystemPr
+# AI-Based Smart Food Redistribution and Waste Reduction System
 
-oject TitleAI-Ba
+## Project Title
 
-sed Smart Food Redistribution and Waste Reduction SystemTeam Memb
+AI-Based Smart Food Redistribution and Waste Reduction System
 
-ersS. No. Name 
+## Team Members
 
-Roll Number1 Tejasree 24200304412 Kongara Deepthi 2420030
-4843 Thirumala Reddy Sagar Mounitha 24200303304 Shalini .
- Ch 2420030284SupervisorSupervisor Name: Dr Archana Kalid
-indiAbstractThe AI-Based Smart Food Redistribution and Wa
-ste Reduction System is designed to reduce food wastage b
-y using artificial intelligence and data-driven decision-
+| S. No. | Name                           | Roll Number |
+| ------ | ------------------------------ | ----------- |
+| 1      | Tejasree                       | 2420030441  |
+| 2      | Kongara Deepthi                | 2420030484  |
+| 3      | Thirumala Reddy Sagar Mounitha | 2420030330  |
+| 4      | Shalini . Ch                   | 2420030284  |
 
-making to ide
+## Supervisor
 
-ntify surplus food and facilitate its red
+Supervisor Name: Dr Archana Kalidindi
 
-istribution
+## Abstract
 
- to people or organizations in need.The system analyzes information such as food availability, quantity, expiry time, location, and demand to determine suitable redistribution opportunities. AI-based prediction and matching techniques can be used to prioritize foo
+The AI-Based Smart Food Redistribution and Waste Reduction System is designed to reduce food wastage by using artificial intelligence and data-driven decision-making to identify surplus food and facilitate its redistribution to people or organizations in need.
 
-d items based on urgency and connect available surplus food with nearby recipients or organizations.The proposed system aims to provide an efficient, technology-driven solution for reducing avoidable food waste while improving food redistribution and resource utilization.ObjectivesDevelop an AI-based system to identify and man
+The system analyzes information such as food availability, quantity, expiry time, location, and demand to determine suitable redistribution opportunities. AI-based prediction and matching techniques can be used to prioritize food items based on urgency and connect available surplus food with nearby recipients or organizations.
 
-age surplus food.Predict food demand and potential food wastage using available data.Prioritize food items based on quantity, expiry time, and urgency.Match surplus food wi
+The proposed system aims to provide an efficient, technology-driven solution for reducing avoidable food waste while improving food redistribution and resource utilization.
 
-th suitable r
+## Objectives
 
-ecipients or nearby organizations.Reduce avoidable food waste thr
-ough intelligent redistribution.Provide a centralized platform for mon
-itoring food availability and redistribution activities.Improve the 
-efficiency and transparency of the food redistribution process.Technol
-ogies UsedPythonArtificial Intelligence / Machine LearningData An
-alysis and VisualizationFlask / FastAPI (as applicable)HTML, CSS, JavaScript (as applicable)Data
-baseGit and GitHubVS CodeRepository Structure├── .gitignore├── README.md│├── 
+* Develop an AI-based system to identify and manage surplus food.
+* Predict food demand and potential food wastage using available data.
+* Prioritize food items based on quantity, expiry time, and urgency.
+* Match surplus food with suitable recipients or nearby organizations.
+* Reduce avoidable food waste through intelligent redistribution.
+* Provide a centralized platform for monitoring food availability and redistribution activities.
+* Improve the efficiency and transparency of the food redistribution process.
 
-src/│   └── Source c
+## Technologies Used
 
-ode│├── 
-docs/│   └── Project documentation│├── data/
-│   └── Dataset or documented dat
-a source│├── results/│   └── Model 
-results, graphs, and outputs│└── reports/
-    └── Re
-view reports and
- final pr
+* Python
+* Artificial Intelligence / Machine Learning
+* Data Analysis and Visualization
+* Flask / FastAPI *(as applicable)*
+* HTML, CSS, JavaScript *(as applicable)*
+* Database
+* Git and GitHub
+* VS Code
 
-oject reportSetup Instr
+## Repository Structure
 
-uctions
-1. Clone the R
-epositorygit 
-c
-lone <RE
-POSITORY_URL>cd <RE
-P
-OSITORY_N
-AME>2. Install Required Depen
-d
-enciesIns
-tall the required Python libraries and ot
-h
-er dependenc
-ies used by the project.pip install -r req
-u
-irements.txt
-3. Run the ProjectNavigate to the source direct
-ory
+├── .gitignore
+├── README.md
+│
+├── src/
+│   └── Source code
+│
+├── docs/
+│   └── Project documentation
+│
+├── data/
+│   └── Dataset or documented data source
+│
+├── results/
+│   └── Model results, graphs, and outputs
+│
+└── reports/
+    └── Review reports and final project report
 
-:cd srcRun the main a
+## Setup Instructions
 
-pplication according to the
+### 1. Clone the Repository
 
- projec
-t implementation.python ap
-p.pyThe exact execut
-ion
+git clone <REPOSITORY_URL>
+cd <REPOSITORY_NAME>
 
- command will be updated as the proj
+### 2. Install Required Dependencies
 
-ect implementation is finalized.System WorkflowThe proposed system follows these 
+Install the required Python libraries and other dependencies used by the project.
 
-major s
-teps:Food Data Collection – Col
-lec
+pip install -r requirements.txt
 
-t information about su
+### 3. Run the Project
 
-rplus food, quantity, expiry time
+Navigate to the source directory:
 
-, locat
-ion, a
-nd 
+cd src
 
-availability.Data Processing – Clean and preprocess the collected
+Run the main application according to the project implementation.
 
- data f
-or analysis.A
-I-B
+python app.py
 
-ased Prediction – Analyze food availability and demand to identify potential wastage and 
+> The exact execution command will be updated as the project implementation is finalized.
 
-redistribution req
+## System Workflow
 
-uirements.Food Prioritization – Prioritize foo
+The proposed system follows these major steps:
 
-d based on factors such as expiry time, quantity, and urgency.Smart Matching – Match available surplus food with suitabl
-e recipients or organizations.Redistribution – Facilitate the redistribution o
-f suitable food to reduce unnecessary wastage.Monitoring and Results – Track redistribution activities and evaluate the reductio
-n in food waste.Current Phase StatusCurrent Phase: Review 1Status: Project title, problem statement, obje
-ctives, literature survey, research gap identification, innovation, feasibility analysis, and i
-nitial project planning completed.Upcoming WorkCollect and prepare the required dataset.Perform data 
-preprocessing and exploratory data analysis.Develop the AI/ML prediction model.Implement the food priorit
+1. Food Data Collection – Collect information about surplus food, quantity, expiry time, location, and availability.
+2. Data Processing – Clean and preprocess the collected data for analysis.
+3. AI-Based Prediction – Analyze food availability and demand to identify potential wastage and redistribution requirements.
+4. Food Prioritization – Prioritize food based on factors such as expiry time, quantity, and urgency.
+5. Smart Matching – Match available surplus food with suitable recipients or organizations.
+6. Redistribution – Facilitate the redistribution of suitable food to reduce unnecessary wastage.
+7. Monitoring and Results – Track redistribution activities and evaluate the reduction in food waste.
 
-ization and matching me
+## Current Phase Status
 
-chanism.Develop the applica
+Current Phase: Review 1
 
-tion interface.Integrate the AI model with the application.Test and evaluate the system.Prepare subsequent review and final project deliverables.Project DeliverablesProject docume
+Status: Project title, problem statement, objectives, literature survey, research gap identification, innovation, feasibility analysis, and initial project planning completed.
 
-ntationSource cod
+### Upcoming Work
 
-eDataset / documented data sourceAI/ML mode
-lModel
+* Collect and prepare the required dataset.
+* Perform
+  data preprocessing and exploratory data analysis.
+* Develop the AI/ML prediction model.
+* Implement the food prioritization and matching mechanism.
+* Develop the application interface.
+* Integrate the AI model with the application.
+* Test and evaluate the system.
+* Prepare subsequent review and final project deliverables.
+
+## Project Deliverables
+
+* Project documentation
+* Source code
+* Dataset / documented data source
+* AI/ML model
+* Model evaluation results
+* Application implementation
+* Review reports
+* Final project report
+
+## GitHub Contribution Policy
+
+All team members will contribute using their individual GitHub accounts so that individual contributions can be verified.
+
+The project repository will maintain progressive and meaningful commits throughout the project. Phase deliverables will be properly tagged.
+
+Example tags:
+
+review-1
+review-2
+final
+
+## Important Note
+
+The repository must not contain:
+
+* Passwords or credentials
+* API keys
+* Secret tokens
+* Licensed datasets that cannot be redistributed
+* Confidential institutional data
+* Other sensitive information
+
+Sensitive configuration values should be stored locally and excluded using .gitignore.
+
+## Academic Year
+
+2026–2027
